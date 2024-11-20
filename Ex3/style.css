@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 80px 400px auto 250px;
+    grid-template-columns: 80px auto;
+  }
+  nav {
+    background-color: black;
+    color:#e9ecef ;
+    width: 80px;
+    grid-row: 1/5;
+
+  }
+  menu{
+    background-color: #7048e8;
+    grid-column: 2/5;
+    height: 80px;
+    padding-bottom: 1px;
+  }
+  section{
+    background-color:rgb(228, 225, 225) ;
+    color: black;
+    grid-row: 2/5;
+    width: 400px;
+  }
+  main{
+    background-color: white;
+    grid-row: 2/5;
+    color: black;
+
+  }
+  aside{
+    background-color: rgb(228, 225, 225);
+    color: black;
+    width: 250px;
+    grid-row: 2/5;
+  }
+  .email{
+    padding: 10px;
+    background-color: #adb5bd;
+    border: 0;
+    margin: 10px;
+    display: block;
+    text-align: center; 
+    font-weight: bold; 
+    color: black;
+
+  }
