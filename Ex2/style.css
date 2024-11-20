@@ -1,0 +1,42 @@
+
+px* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+.chair-table {
+  width: 800px;
+  border-collapse: collapse;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+.chair-table thead {
+  background-color: #007b3e;
+  color: white;
+}
+
+.chair-table th,
+.chair-table td {
+  padding: 20px;
+  border: 0;
+}
+
+.chair-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.chair-table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
